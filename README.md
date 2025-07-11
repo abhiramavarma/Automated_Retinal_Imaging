@@ -95,7 +95,7 @@ This dataset contains images categorized into different stages of Diabetic Retin
 ## Model Architecture
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/9914b11f-780d-46cb-9b81-4b3744e077a4" width="60%" height="60%" alt="Architecture Diagram" title="Architecture Diagram"/>
+  <img src="https://github.com/user-attachments/assets/9914b11f-780d-46cb-9b81-4b3744e077a4" width="60%" height="auto" alt="Architecture Diagram" title="Architecture Diagram"/>
 <br><i>Fig: Architecture Diagram</i>
 </p>
 
@@ -111,25 +111,25 @@ Our system employs a Convolutional Neural Network (CNN), specifically DenseNet12
 The CNN-LSTM model achieves a 90% accuracy in classifying retinal images and generates descriptive summaries of retinal conditions. For example, the system can identify and describe features like microaneurysms and haemorrhages. 
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/1b8a2386-df88-4de1-ac8c-4ed1f288a865" width="50%" height="0%"/>
+  <img src="https://github.com/user-attachments/assets/1b8a2386-df88-4de1-ac8c-4ed1f288a865" width="50%" height="auto"/>
 <br><i>Fig. 1: Initial Interface</i><br><br>
-<img src="https://github.com/user-attachments/assets/b94fb815-915a-4e77-b6e2-6a18b022cfcd" width="50%" height="50%"/>
+<img src="https://github.com/user-attachments/assets/b94fb815-915a-4e77-b6e2-6a18b022cfcd" width="50%" height="auto"/>
 <br><i>Fig. 2: Selecting Test Image</i><br><br>
-<img src="https://github.com/user-attachments/assets/15fff6e2-4edb-400d-8ef4-3c36e6826c9b" width="50%" height="50%"/>
+<img src="https://github.com/user-attachments/assets/15fff6e2-4edb-400d-8ef4-3c36e6826c9b" width="50%" height="auto"/>
 <br><i>Fig. 3: Predicting the Results</i><br><br>
-<img src="https://github.com/user-attachments/assets/b441d83e-8a90-44c2-a498-84c549938f35" width="50%" height="50%"/>
+<img src="https://github.com/user-attachments/assets/b441d83e-8a90-44c2-a498-84c549938f35" width="50%" height="auto"/>
 <br><i>Fig. 4: AI Generated Summary</i><br><br>
-<img src="https://github.com/user-attachments/assets/3e423d2a-105a-4d5b-bb9b-e7977f48e72d" width="50%" height="50%"/>
+<img src="https://github.com/user-attachments/assets/3e423d2a-105a-4d5b-bb9b-e7977f48e72d" width="50%" height="auto"/>
 <br><i>Fig. 5: Chat Bot Demonstration</i><br><br>
 </p>
 
 
 The accuracy of the generated descriptions is evaluated using BLEU scores. The model was trained for 50 epochs with the Adam optimizer. <br>
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/2bd91962-c8f7-4761-9118-72cbf86f1684" width="50%" height="50%"/>
+  <img src="https://github.com/user-attachments/assets/2bd91962-c8f7-4761-9118-72cbf86f1684" width="50%" height="auto"/>
 <br><i>Fig. 6: BLEU Scores</i><br>
     <br>
-<img src="https://github.com/user-attachments/assets/1135f6b4-d30e-4b57-ab6c-71fcc8ba36f9" width="50%" height="50%"/>
+<img src="https://github.com/user-attachments/assets/1135f6b4-d30e-4b57-ab6c-71fcc8ba36f9" width="50%" height="auto"/>
 <br><i>Fig. 7: Plotting the BLEU Scores</i><br><br>
 </p>
 
