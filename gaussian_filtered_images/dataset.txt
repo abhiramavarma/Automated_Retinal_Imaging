@@ -1,0 +1,19 @@
+Dataset Information for Gaussian Filtered Images
+
+The original retinal images used in this project were sourced from the APTOS 2019 Blindness Detection dataset available on Kaggle:
+
+"https://www.kaggle.com/datasets/mariaherrerot/aptos2019"
+
+This Kaggle dataset contains the following folders, representing different stages of Diabetic Retinopathy (DR):
+
+- No_DR
+- Mild
+- Moderate
+- Severe
+- Proliferate_DR
+
+Additionally, the `export.pkl` file, which may contain pre-processed data or metadata related to the dataset, was also part of this Kaggle download.
+
+Please download the dataset from the provided Kaggle link. After downloading, the image folders ("No_DR", "Mild", "Moderate", "Severe", "Proliferate_DR") and the `export.pkl` file should be placed directly within **this `gaussian_filtered_images` folder**.
+
+Please note that the `train.csv` file, which provides labels and potentially other information related to the training images, is located in the root (parent) directory of this project and should **not** be placed within this folder.

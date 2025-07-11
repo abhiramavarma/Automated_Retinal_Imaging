@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>About - Automated Retinal Imaging</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='style.css') }}"
+    />
+    <style>
+      /* You can add specific styles for the about page here if needed */
+      /* Or override general styles */
+      .about-content {
+        max-width: 800px;
+        margin: 20px auto;
+        text-align: left;
+      }
+      .about-content h3 {
+        margin-top: 20px; /* Add space above section titles */
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="site-title">Automated Retinal Imaging</div>
+        <ul>
+          <li><a href="{{ url_for('index') }}">Home</a></li>
+          <li><a href="{{ url_for('about') }}">About</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="container">
+      <h2>About This Project</h2>
+      <div class="about-content">
+        <p>
+          This project demonstrates an automated system for the early diagnosis
+          of Diabetic Retinopathy and its potential links to cardiac and ocular
+          diseases using Convolutional Neural Networks (CNN).
+        </p>
+
+        <h3>Purpose</h3>
+        <p>
+          Diabetic Retinopathy (DR) is a common complication of diabetes that
+          affects the eyes, often leading to blindness if not detected early.
+          Recent research also suggests potential correlations between the state
+          of retinal blood vessels and systemic conditions like heart disease
+          and glaucoma. This tool aims to provide an automated analysis of
+          retinal images to assist in identifying the severity of DR and
+          highlighting potential associated risks.
+        </p>
+
+        <h3>Model</h3>
+        <p>
+          The system utilizes a deep learning model based on the DenseNet121
+          architecture, pre-trained on the ImageNet dataset and fine-tuned on a
+          dataset of retinal images labeled with different stages of Diabetic
+          Retinopathy (No DR, Mild, Moderate, Severe, Proliferative DR).
+        </p>
+
+        <h3>Disclaimer</h3>
+        <p>
+          <strong
+            >This tool is for educational and research purposes only. The
+            predictions provided are based on an automated algorithm and should
+            NOT be considered a substitute for professional medical diagnosis or
+            advice from a qualified healthcare provider. Always consult with a
+            doctor or eye specialist for any health concerns.</strong
+          >
+        </p>
+      </div>
+    </div>
+
+    <footer>
+      <p>
+        &copy; {{ now().year }} Automated Retinal Imaging Project. All rights
+        reserved.
+      </p>
+    </footer>
+  </body>
+</html>
